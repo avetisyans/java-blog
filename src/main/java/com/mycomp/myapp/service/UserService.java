@@ -30,7 +30,6 @@ public class UserService {
 	private ItemRepository itemRepository;
 	
 	
-	
 	public List<User> findAll() {
 		return userRepository.findAll();
 	}
@@ -51,6 +50,7 @@ public class UserService {
 		}
 		
 		user.setBlogs(blogs);
+		
 		return user;
 	}
 
