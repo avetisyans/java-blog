@@ -51,7 +51,6 @@ public class UserService {
 		}
 		
 		user.setBlogs(blogs);
-		
 		return user;
 	}
 
